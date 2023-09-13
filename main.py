@@ -6,17 +6,22 @@
 # indexing strings -- slide 4
 my_text = 'this is a text'
 result = my_text  #get the index of the letter a
-print(result)
+print(result.find("a"))
+print(result[0])
+print(result[-1])
+print(result.find("text"))#get the index of the word
+print(result[10:14])
+
 
 #get the index of the third letter from the end of the text
-
+print(result[-3])
 # find the index of the letter s
-
+print(result.find("s"))
 ###slide 5
 # string[start:stop:step]
 #example
-# text = "Hello, World!"
-# print(text[7:12])  # prints "World"
+text = "Hello, World!"
+print(text[7:12])  # prints "World"
 text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 # Get the substring CDE and put in a variable
 
